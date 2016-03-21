@@ -9,9 +9,11 @@ public class Student extends Person {
 
 	private String Major;
 	private UUID StudentID;
+	Enum Course;
 	
 	public String getMajor ( )
     {
+	
         return this.Major;
     }
     public void setMajor (String Major)
